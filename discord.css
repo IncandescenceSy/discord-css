@@ -41,10 +41,6 @@ button[aria-label="Apps"],
 /* Nitro ad on profile banner */
 .textBadge__45d79,
 
-/* Boost goal */
-.container__0d0f9,
-/* todo: hide boost button in server */
-
 /* Shop and store */
 a[href="/store"], a[href="/shop"],
 
@@ -73,10 +69,8 @@ div[role="button"][aria-label="Mark Unread"],
 .searchBar__35e86, /* Use Ctrl+K */
 
 /* Boost goal */
-[aria-label="Buy Boosts to help unlock Level 1 perks!"],
-[aria-label="Buy Boosts to help unlock Level 2 perks!"],
-[aria-label="Buy Boosts to help unlock Level 3 perks!"],
-[aria-label="This server has unlocked all Boosting perks!"],
+.container__0d0f9,
+/* todo: hide boost button in server */
 
 /* Events */
 #channels li[data-list-item-id^=channels___upcoming-events],
