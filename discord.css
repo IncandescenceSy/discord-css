@@ -17,6 +17,9 @@ button[aria-label="Apps"],
 #message-add-reaction-1,
 
 /* Nitro ads in profile edit */
+.container__8279f,
+.upsellContainer__0b69f,
+.upsellOverlayContainer__0f7dc,
 .premiumFeatureBorder__9bbb3.featureBorder_a44f20.customizationSectionBorder__17861,
 .customizationSection__16fec.showBorder__9e03d,
 .container_d6bff4,
@@ -25,8 +28,22 @@ button[aria-label="Apps"],
 .premiumTab__57bdc.item__48dda.themed_b957e8,
 .upsellOverlayContainer__08979,
 
+/* Nitro profile preview in profile edit */
+.tryItOutSection__9d295,
+
+/* Payment settings */
+/* todo: find a way to hide Server Boost tab and Payment settings header */
+.premiumTab__581ea,
+[aria-label="Subscriptions"],
+[aria-label="Gift Inventory"],
+[aria-label="Billing"],
+
 /* Nitro ad on profile banner */
 .textBadge__45d79,
+
+/* Boost goal */
+.container__0d0f9,
+/* todo: hide boost button in server */
 
 /* Shop and store */
 a[href="/store"], a[href="/shop"],
