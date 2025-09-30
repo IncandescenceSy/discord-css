@@ -1,0 +1,97 @@
+/* Message bar buttons */
+.buttons__74017, /* Gift button */
+button[aria-label="Boost this server"],
+.attachButton__0923f,
+.attachWrapper__0923f,
+.uploadInput_f298d4,
+.expression-picker-chat-input-button, /* Gif: Ctrl + G; Emoji: Ctrl + E; Sticker: Ctrl + S */
+button[aria-label="Apps"],
+
+/* Channels & Roles / Browse Channels button */
+#channels li[role="button"],
+.sectionDivider__68d2a,
+
+/* Super reactions */
+[aria-label="Add Super Reaction"],
+#super-reaction-picker-tab,
+#message-add-reaction-1,
+
+/* Nitro ads in profile edit */
+.premiumFeatureBorder__9bbb3.featureBorder_a44f20.customizationSectionBorder__17861,
+.customizationSection__16fec.showBorder__9e03d,
+.container_d6bff4,
+.bannerNitroUpsell__492d6,
+.premiumFeatureBorder__9bbb3.featureBorder_a44f20.tryItOutSection__0f9fb,
+.premiumTab__57bdc.item__48dda.themed_b957e8,
+.upsellOverlayContainer__08979,
+
+/* Nitro ad on profile banner */
+.textBadge__45d79,
+
+/* Shop and store */
+a[href="/store"], a[href="/shop"],
+
+/* Mark unread button */
+div[role="button"][aria-label="Mark Unread"],
+#message-mark-unread,
+
+/* Speak message button */
+#message-tts,
+
+/* Emoji images and submenu on rightclick and hover */
+.customItem__7173b,
+.submenu_acf564[aria-activedescendant="message-add-reaction-0"],
+.wrapper__2e846,
+
+/* Top toolbar buttons */
+[aria-label="Help"],
+[aria-label="Show User Profile (Unavailable)"],
+[aria-label="Show User Profile"], /* Use Ctrl+U */
+[aria-label="Show Member List"], /* Use Ctrl+U */
+[aria-label="Add Friends to DM"], /* Use + button at top of DMs */
+[aria-label="Start Video Call"],
+[role="button"][aria-label="Notification Settings"], /* Just right click channel */
+
+/* Find or start a conversation bar */
+.searchBar__35e86, /* Use Ctrl+K */
+
+/* Boost goal */
+[aria-label="Buy Boosts to help unlock Level 1 perks!"],
+[aria-label="Buy Boosts to help unlock Level 2 perks!"],
+[aria-label="Buy Boosts to help unlock Level 3 perks!"],
+[aria-label="This server has unlocked all Boosting perks!"],
+
+/* Events */
+#channels li[data-list-item-id^=channels___upcoming-events],
+#channels li[data-list-item-id^=channels___ongoing-events],
+.channelNotice__8f7b2,
+
+/* Create invite and edit channel buttons */
+.actionIcon_c69b6d, /* Use rightclick */
+
+/* Active now panel */
+.nowPlayingColumn_f5023f,
+
+/* Wave button */
+[aria-label="Send a wave"],
+
+/* Commonly used divider to create whitespace around elements this deletes */
+div[style="height: 12px;"]
+
+{
+   display: none !important;
+}
+
+.sansAttachButton__74017
+{
+    padding: 0px 0px 0px 10px !important;
+}
+
+/* Fix bottom left mini profile size */
+.guilds_c48ade {
+  --custom-app-panels-height: 0px !important;
+}
+.panels_c48ade {
+  left: var(--custom-guild-list-width) !important;
+  width: calc(100% - var(--custom-guild-list-width)) !important;
+}
